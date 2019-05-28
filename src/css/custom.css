@@ -1,0 +1,93 @@
+.FormStyle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-font-smoothing: subpixel-antialiased;
+    background: #1b6a7e;
+    overflow: hidden;
+    font: normal normal 100 14px/1.6 'Roboto', sans-serif;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+  }
+  
+  .InputNameStyle {
+    width: 300px;
+    height: 40px;
+    margin: 5px auto;
+    font-size: 15px;
+    box-sizing: border-box;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  align-self: auto;
+  }
+
+  .InputBusAddress {
+    transform: translate(3%, 0%);
+    -ms-transform: translate(-40%, -40%);
+    width: 42%;
+  height: 100px;
+  margin: 5px auto;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  text-align: left;
+  font-size: 18px;
+  align-self: auto;
+  }
+
+  .InputEmailStyle {
+    margin: 20px auto;
+    font-size: 15px;
+    text-align: left;
+      }
+  
+      .rgform{
+        width: 100%;
+        background: #1b6a7e;
+        text-align: center;
+         height: 100%;
+         padding: 50px 0px;
+      }
+
+      .signin{
+        width: 100%;
+        background: #1b7e28;
+        text-align: center;
+         height: 100%;
+         padding: 50px 0px;
+      }
+
+      #registrationform{
+          width: 50%;
+          background-color: rgb(97, 61, 14);
+          opacity: 0.8;
+          padding: 50px 0px;
+      }
+
+    
+      
+.container .btn {
+    
+   
+    transform: translate(0%, 10%);
+    -ms-transform: translate(-40%, -40%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+    color: white;
+    
+  }
